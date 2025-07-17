@@ -1,6 +1,5 @@
 import random
 import turtle as t
-import random as r
 
 tim = t.Turtle()
 
