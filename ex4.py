@@ -1,19 +1,19 @@
 import random
 
-#import colorgram
+import colorgram
 import turtle as t
 #
-# colors = colorgram.extract("image.jpg", 10)
-#
-# rgb_colors = []
-#
-# for color in colors:
-#     r = color.rgb.r
-#     g = color.rgb.g
-#     b = color.rgb.b
-#     rgb_colors.append((r, g, b))
-#
-# print(rgb_colors)
+colors = colorgram.extract("image.jpg", 10)
+
+rgb_colors = []
+
+for color in colors:
+     r = color.rgb.r
+     g = color.rgb.g
+     b = color.rgb.b
+     rgb_colors.append((r, g, b))
+
+ print(rgb_colors)
 
 # we copy those tuples here and we delete the white
 
